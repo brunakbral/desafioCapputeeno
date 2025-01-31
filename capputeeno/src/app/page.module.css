@@ -1,12 +1,8 @@
-
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  gap: 32px;
-  grid-row-start: 2;
+  padding: 34px 160px;
   min-height: 100vh;
+  background-color: var(--bg-primary);
 }
-
