@@ -11,8 +11,8 @@ const client = new QueryClient ();
   return (
     <QueryClientProvider client = {client}>
       <main className={styles.page}>
-        <FilterBar />
-        <ProductsList />
+      <FilterBar />
+      <ProductsList />
       </main>
     </QueryClientProvider>
   );
