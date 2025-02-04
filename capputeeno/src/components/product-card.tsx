@@ -12,16 +12,12 @@ const Card = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
-    background: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(10px);
-    border-radius: 0px 0px 4px 4px;
-
-    width: 256px;
-
+    background-color: rgba(255, 255, 255, 0.4);
+    
     img {
         width: 256px;
         height: 300px;
+        border-radius: 8px 8px 0px 0px;
     }
 
     h3 {
