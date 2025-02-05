@@ -28,6 +28,8 @@ const TagHeader = styled.header`
         justify-content: center;
         gap: 24px;
     }
+
+   
 `
 
 const Logo = styled.a`
